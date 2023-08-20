@@ -1,0 +1,18 @@
+body {
+    background: #1d1d1d;
+    color: white;
+    text-align: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.txtCurso {
+    margin-top: 15px;
+}
+
+.btnVoltar {
+    margin-top: 15px;
+}
