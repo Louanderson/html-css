@@ -29,7 +29,7 @@ header > h1 {
     padding-top: 50px;
     font-variant: small-caps;
     font-family: var(--font2);
-    font-size: 8vw;
+    font-size: 5.5vw;
 }
 
 header > p {
@@ -47,16 +47,16 @@ a:hover {
 }
 
 section {
-    padding-top: 10vh;
-    padding-bottom: 10vh;
+    padding-top: 20vh;
+    padding-bottom: 20vh;
     padding-left: 30px;
     line-height: 2em;
     font-family: var(--font3);
-    font-size: 3.5vw;
+    font-size: 1.8vw;
 }
 
 section.default {
-    background-color: white;
+    background-color: rgb(255, 250, 235);
     color: black;
 }
 
