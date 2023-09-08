@@ -12,7 +12,7 @@
         table {
             width: 500px;
             border-collapse: collapse;
-            box-shadow: 3px 0px 3px rgba(0, 0, 0, 0.349);
+            box-shadow: 1px 0px 3px rgba(0, 0, 0, 0.349);
         }
 
         caption {
@@ -21,12 +21,16 @@
             padding: 10px;
             background-color: #777777;
             color: white;
-            box-shadow: 3px 0px 3px rgba(0, 0, 0, 0.349);
+            box-shadow: 1px 0px 3px rgba(0, 0, 0, 0.349);
         }
 
         thead, tfoot {
             background-color: #777777;
             color: white;
+        }
+
+        tbody > tr:nth-child(even) {
+            background-color: lightgray;
         }
 
         td, th {
